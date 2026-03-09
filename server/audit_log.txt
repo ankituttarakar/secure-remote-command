@@ -1,0 +1,4 @@
+[2026-03-09 18:23:31.198463] admin logged in from ('127.0.0.1', 10176)
+[2026-03-09 18:23:36.361710] admin executed command: dir
+[2026-03-09 18:23:43.172323] admin executed command: whoami
+[2026-03-09 18:23:48.875248] admin disconnected
