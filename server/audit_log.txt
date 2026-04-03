@@ -6,3 +6,23 @@
 [2026-03-09 18:40:00.203173] admin executed command: dir
 [2026-03-09 18:40:02.730215] admin executed command: whoami
 [2026-03-09 18:40:04.607061] admin disconnected
+[2026-03-13 14:17:37.057063] Failed login attempt from ('127.0.0.1', 46479)
+[2026-03-13 14:18:20.317675] Failed login attempt from ('127.0.0.1', 36316)
+[2026-03-13 14:18:45.654125] Failed login attempt from ('127.0.0.1', 46177)
+[2026-03-13 14:20:19.311335] Failed login attempt from ('127.0.0.1', 38603)
+[2026-03-13 14:23:35.209812] Failed login attempt from ('127.0.0.1', 53619)
+[2026-03-13 14:24:22.618092] admin logged in from ('127.0.0.1', 55192)
+[2026-03-13 14:24:31.591221] admin executed command: dir
+[2026-03-13 14:24:39.545258] admin executed command: ls
+[2026-03-13 14:24:42.816674] admin executed command: pwd
+[2026-03-13 14:24:48.440825] admin executed command: whoami
+[2026-03-30 14:30:16.276582] admin logged in from ('127.0.0.1', 28407)
+[2026-03-30 14:30:18.761725] admin executed command: dir
+[2026-03-30 14:31:37.092187] admin executed command: cd
+[2026-03-30 14:31:45.081652] admin executed command: systeminfo
+[2026-03-30 14:32:05.236922] admin executed command: echo hello from client
+[2026-03-30 14:32:17.935063] admin executed command: acsif
+[2026-03-30 14:32:20.547121] admin executed command: uafua
+[2026-03-30 14:37:41.742135] admin logged in from ('127.0.0.1', 55413)
+[2026-03-30 14:37:50.089072] admin executed command: dir
+[2026-03-30 14:38:48.114093] admin executed command: ttdccc

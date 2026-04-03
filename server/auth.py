@@ -1,6 +1,6 @@
 USERS = {
     "admin": "1234",
-    "user": "pass"
+    "user": "pass",
 }
 
 def authenticate(username, password):
