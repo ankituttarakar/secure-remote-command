@@ -143,6 +143,32 @@ Enter command: exit
 - **Command Validation**: Currently allows all commands. Add command whitelisting for better security.
 - **Logging**: Audit logs are stored in plain text. Consider secure logging practices.
 
+## User Management
+
+### Adding New Users
+
+To add new users, edit the `server/auth.py` file:
+
+1. Open `server/auth.py`
+2. Add new entries to the `USERS` dictionary:
+
+```python
+USERS = {
+    "admin": "1234",
+    "user": "pass",
+    "arayana": "4567",
+    "newuser": "newpassword"  # Add new user here
+}
+```
+
+3. Save the file and restart the server
+
+### Current Users
+
+- Username: `admin`, Password: `1234`
+- Username: `user`, Password: `pass`
+- Username: `arayana`, Password: `4567`
+
 ## Implementation Details
 
 ### Server Components
@@ -194,3 +220,4 @@ The system uses a simple text-based protocol:
 - Support for file transfers
 - Multi-client support with threading
 - Configuration files for settings
+
