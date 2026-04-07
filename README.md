@@ -194,7 +194,3 @@ The system uses a simple text-based protocol:
 - Support for file transfers
 - Multi-client support with threading
 - Configuration files for settings
-
-## License
-
-This project is for educational purposes. Use at your own risk.
