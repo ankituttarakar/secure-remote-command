@@ -169,6 +169,33 @@ USERS = {
 - Username: `user`, Password: `pass`
 - Username: `arayana`, Password: `4567`
 
+## Viewing Audit Logs
+
+All authentication attempts and command executions are automatically logged to `server/audit_log.txt`. To view the logs:
+
+```bash
+cd server
+cat audit_log.txt
+# or on Windows:
+type audit_log.txt
+```
+
+### Log Format
+
+Each log entry includes:
+- Timestamp
+- Username and action
+- IP address for connections
+- Commands executed
+
+Example log entries:
+```
+[2024-01-15 10:30:45.123456] admin logged in from ('127.0.0.1', 54321)
+[2024-01-15 10:30:47.654321] admin executed command: ls
+[2024-01-15 10:31:12.789012] admin executed command: pwd
+[2024-01-15 10:31:15.246813] admin disconnected
+```
+
 ## Implementation Details
 
 ### Server Components
@@ -220,4 +247,5 @@ The system uses a simple text-based protocol:
 - Support for file transfers
 - Multi-client support with threading
 - Configuration files for settings
+
 
